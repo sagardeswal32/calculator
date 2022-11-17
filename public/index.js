@@ -12,6 +12,9 @@ buttons.map( button => {
             case 'MS':
                 display.innerText += '*97.18'
                 break;
+            case 'HSD':
+                    display.innerText += '*90.05'
+                    break;
             case '=':
                 try{
                     display.innerText = eval(display.innerText);
